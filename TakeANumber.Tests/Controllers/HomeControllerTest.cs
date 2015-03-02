@@ -39,13 +39,13 @@ namespace TakeANumber.Tests.Controllers
         }
 
         [TestMethod]
-        public void Contact()
+        public void AdminQueue()
         {
             // Arrange
             HomeController controller = new HomeController();
 
             // Act
-            ViewResult result = controller.Contact() as ViewResult;
+            ViewResult result = controller.AdminQueue() as ViewResult;
 
             // Assert
             Assert.IsNotNull(result);

@@ -20,7 +20,7 @@ namespace TakeANumber.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult AdminQueue()
         {
             ViewBag.Message = "Your contact page.";
 
