@@ -22,8 +22,6 @@ namespace TakeANumber.Controllers
 
         public ActionResult AdminQueue()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
     }
